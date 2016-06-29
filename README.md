@@ -1,20 +1,43 @@
 # Classes
 
-## Objectives
+![NameOfPerson](http://i.imgur.com/saRjcUW.jpg?1)  
 
-1. Objective 1
-2. Objective 2.
+> My attitude is that if you push me towards something that you think is a weakness, then I will turn that perceived weakness into a strength. ~[Michael Jordan](https://en.wikipedia.org/wiki/Michael_Jordan)
+ 
 
-## Instructions
+## Learning Objectives - The student should be able to..
 
-Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
+* Blah blah blah
 
-Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
 
-### Part 1: Do Some Stuff
+## What the student can do at this point 
 
-## Resources
+* More stuff
 
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
+
+## Outline / Notes
+
+*  If we want to create variables that represent a person, we know how to do that:
+
+```swift
+let name = "Michael"
+var favoriteSong = "Piano Man"
+var address = "California"
+var hungerScale = 5 // scale is from 1-10, 10 being very hungry
+var canSurf = false
+```
+
+* Here we created a constant `name` of type `String` with a value of "Michael"
+* A variable `favoriteSong` of type `String` with a value of "Piano Man"
+* A variable `address` of type `String` with a value of "California"
+* A variable `hungerScale` of type `Int` with a value of 5
+* A variable `canSurf` of type `Bool` with a value of false
+* If all of a sudden.. by a miracle, Michael was able to surf, we know how we can change that variable:
+
+```swift
+canSurf = true
+```
+
+* What if you had to create 5 people.. or 50 people in your app. Sure you could do it similar to how we did it above, but that would be incredibly tedious. 
 
 <a href='https://learn.co/lessons/Classes' data-visibility='hidden'>View this lesson on Learn.co</a>
